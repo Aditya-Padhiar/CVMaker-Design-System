@@ -33,6 +33,10 @@
   padding: 0;
 }
 
+body {
+  margin-bottom: 10rem;
+}
+
 li,
 a {
   font-family: "product_sansregular", Arial, sans-serif;
@@ -117,38 +121,6 @@ header {
   margin-left: 0.7rem;
 }
 
-.btn-edit {
-  font-family: "product_sansbold", Arial, sans-serif;
-  background-color: #24419f;
-  color: white;
-  border-radius: 150px;
-  font-size: 1.4rem;
-  font-size: 400;
-  padding: 0.4rem 3.2rem;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.btn-edit:hover {
-  box-shadow: 0px 4px 20px rgba(27, 90, 148, 0.2);
-}
-
-.btn-preview {
-  font-family: "product_sansbold", Arial, sans-serif;
-  background-color: rgba(255, 255, 255, 0);
-  color: #24419f;
-  border-width: 0.3rem;
-  border-color: #24419f;
-  border-radius: 150px;
-  font-size: 1.4rem;
-  font-size: 400;
-  padding: 0.2rem 3rem;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.btn-preview:hover {
-  box-shadow: 0px 4px 20px rgba(27, 90, 148, 0.2);
-}
-
 .submit-right-arrow {
   height: 1.6rem;
   width: 1.6rem;
@@ -198,4 +170,66 @@ header {
 .sign-up-google {
   padding: 1rem 2rem;
   background-color: #2b303f;
+}
+
+/*------------CV CARDS-------------------*/
+.card {
+  width: 345px;
+  height: 620px;
+  box-shadow: 2px 16px 32px rgba(124, 124, 124, 0.1);
+  background: #f4f5f7;
+  border-radius: 22px;
+}
+
+.card-image-section {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.card-image-section img {
+  border-radius: 16px;
+}
+
+.card-text-info {
+  font-family: "product_sansbold", Arial, sans-serif;
+  align-self: center;
+  padding: 0.6rem;
+}
+
+.card-action-buttons {
+  margin: 0rem;
+}
+
+.btn-preview {
+  font-family: "product_sansbold", Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  color: #24419f;
+  border-width: 0.3rem;
+  border-color: #24419f;
+  border-radius: 150px;
+  font-size: 1.4rem;
+  font-size: 400;
+  padding: 0.12rem 1.8rem;
+  transition: all 0.3s ease-in-out 0s;
+  align-self: center;
+}
+
+.btn-preview:hover {
+  box-shadow: 0px 4px 20px rgba(27, 90, 148, 0.2);
+}
+
+.btn-edit {
+  font-family: "product_sansbold", Arial, sans-serif;
+  background-color: #24419f;
+  color: white;
+  border-radius: 150px;
+  font-size: 1.4rem;
+  font-size: 400;
+  padding: 0.3rem 3.1rem;
+  transition: all 0.3s ease-in-out 0s;
+  align-self: center;
+}
+
+.btn-edit:hover {
+  box-shadow: 0px 4px 20px rgba(27, 90, 148, 0.2);
 }
