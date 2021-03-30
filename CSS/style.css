@@ -176,7 +176,7 @@ header {
 .card {
   width: 345px;
   height: 620px;
-  filter: drop-shadow(0px 16px 32px rgba(124, 124, 124, 0.1));
+  box-shadow: 2px 16px 32px rgba(124, 124, 124, 0.1);
   background: #f4f5f7;
   border-radius: 22px;
 }
