@@ -172,6 +172,14 @@ header {
   background-color: #2b303f;
 }
 
+.nav_links .dropdown-menu {
+  border-radius: 1rem;
+  border-color: #ffffff;
+  box-shadow: 2px 16px 32px rgba(124, 124, 124, 0.1);
+  padding: 0;
+  margin-left: -3rem;
+}
+
 /*------------CV CARDS-------------------*/
 .card {
   width: 345px;
